@@ -3,7 +3,7 @@ entries:
   ingress-nginx:
   - apiVersion: v1
     appVersion: 0.34.1
-    created: "2020-09-23T10:49:17.476841+09:00"
+    created: "2020-09-23T13:03:28.918123815+09:00"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer
     digest: 67304befe7756c90cb3b3029bbd85581b1fbefa6d9f7bd77cb681269929e9e22
@@ -19,17 +19,28 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - https://yschoe2015.github.io/helmchart/stable/ingress-nginx.tgz
+    - https://jungwooc.github.io/helmchart/stable/ingress-nginx.tgz
     version: 2.12.1
   nginx-aws:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-23T10:49:17.4778849+09:00"
+    created: "2020-09-23T13:03:28.928559933+09:00"
     description: A Helm chart for Kubernetes
     digest: c0d1f0bda5d51bb9622c710b93cedb65c66262bde28bf5969c86a5bb859f4ffa
     name: nginx-aws
     type: application
     urls:
-    - https://yschoe2015.github.io/helmchart/stable/nginx.tgz
+    - https://jungwooc.github.io/helmchart/stable/nginx.tgz
     version: 0.1.0
-generated: "2020-09-23T10:49:17.4738496+09:00"
+  nginx-aws_test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-23T13:03:28.928934248+09:00"
+    description: A Helm chart for Kubernetes
+    digest: fc79948362f360455e726c7be8b792ba7529e1f4e52fdd5c03ceb6464c434306
+    name: nginx-aws_test
+    type: application
+    urls:
+    - https://jungwooc.github.io/helmchart/stable/nginx_test.tgz
+    version: 0.1.0
+generated: "2020-09-23T13:03:28.916112444+09:00"
